@@ -1,0 +1,6 @@
+#This is the generator description file
+#The first line defines how many generators
+2
+#The following lines define pmin, pmax, a, b and c
+0,250,0.5,1.25,1
+60,300,0.675,1,1.25
