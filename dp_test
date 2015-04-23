@@ -1,0 +1,8 @@
+#!/bin/bash
+for i in `seq 0 10`;
+do
+	if [ -e "load$i.csv" ]
+	then
+		./dp "gen.csv" "load$i.csv" "uc$i.csv" "ed$i.csv"
+	fi
+done
